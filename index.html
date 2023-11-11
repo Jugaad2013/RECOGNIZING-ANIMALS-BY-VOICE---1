@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <title>RECOGNIZING ANIMALS by voice</title>
+</head>
+<body>
+   <div class="btn btn-warning header_div">
+    <h1>RECOGNIZING ANIMALS</h1>
+    <p><br>Note: Play a barking, meowing, roar, and mooing sound.</p>
+   </div> 
+   <br><br>
+   <center>   
+    <div class="main_div">
+    <button id="start_button" onclick="start()">Start</button>
+    <h4 id="result_count"></h4>
+    <h3 id="result_label">
+        I Can Hear - 
+    </h3>
+    <br>
+    <img id="animal_image" src="ear.jpeg" width="300" height="300">
+   </div>
+   </center>
+   <div class="copy_right_footer">Developed by: Jugaad</div>
+</body>
+</html>
